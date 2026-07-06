@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Zainab AI Studio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+width:500px;
+height:500px;
+background:#00d9ff;
+filter:blur(180px);
+opacity:.15;
+top:-150px;
+left:-150px;
+z-index:-2;
+}
+
+body::after{
+content:'';
+position:fixed;
+width:500px;
+height:500px;
+background:#7b2cff;
+filter:blur(180px);
+opacity:.15;
+bottom:-150px;
+right:-150px;
+z-index:-2;
+}
+
+header{
+
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:rgba(5,8,22,.85);
+
+backdrop-filter:blur(20px);
+
+z-index:1000;
+
+}
+
+.logo{
+
+font-size:28px;
+
+font-weight:700;
+
+color:#00e5ff;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:30px;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#00e5ff;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:65px;
+
+margin-bottom:20px;
+
+}
+
+.hero span{
+
+color:#00e5ff;
+
+}
+
+.hero p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#d2d7e3;
+
+line-height:1.8;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:18px 40px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+color:white;
+
+background:linear-gradient(135deg,#00d9ff,#7b2cff);
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 0 30px #00d9ff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Zainab AI Studio
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">About</a>
+
+<a href="#">Services</a>
+
+<a href="#">Portfolio</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>
+
+Transforming Ideas Into
+
+<br>
+
+<span>AI-Powered Digital Experiences</span>
+
+</h1>
+
+<p>
+
+Premium AI Videos • Modern Websites • AI Automation • Branding • Social Media Growth
+
+</p>
+
+<a href="#" class="btn">
+
+Hire Me
+
+</a>
+
+</div>
+
+</section>
+<section style="padding:100px 8%;">
+
+<h2 style="text-align:center;font-size:42px;margin-bottom:20px;color:#00e5ff;">
+About Zainab AI Studio
+</h2>
+
+<p style="max-width:900px;margin:auto;text-align:center;color:#d3d8e5;font-size:18px;line-height:1.8;">
+
+Zainab AI Studio helps businesses, startups and creators grow through
+Artificial Intelligence.
+
+We create premium AI videos, futuristic websites, AI automation,
+branding, social media content and digital experiences that attract
+customers and increase sales.
+
+</p>
+
+</section>
+
+<section style="padding:80px 8%;">
+
+<h2 style="text-align:center;font-size:42px;margin-bottom:50px;color:#00e5ff;">
+Our Services
+</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;">
+
+<div style="background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(15px);">
+
+<h3>🎥 AI Videos</h3>
+
+<p>Create viral AI reels, advertisements and cinematic videos.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;">
+
+<h3>💻 Website Development</h3>
+
+<p>Premium responsive business websites with modern UI.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;">
+
+<h3>🤖 AI Automation</h3>
+
+<p>Automate repetitive business work using powerful AI tools.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;">
+
+<h3>📈 Social Media Growth</h3>
+
+<p>Professional content strategy and AI-powered marketing.</p>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:100px 8%;">
+
+<h2 style="text-align:center;font-size:42px;color:#00e5ff;margin-bottom:50px;">
+Our Portfolio
+</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;">
+
+<div style="background:#111827;
+border-radius:20px;
+padding:30px;
+transition:.4s;
+box-shadow:0 0 20px rgba(0,217,255,.15);">
+
+<h3>🤖 AI Agency Website</h3>
+
+<p>Luxury responsive AI business website with futuristic UI and animations.</p>
+
+</div>
+
+<div style="background:#111827;
+border-radius:20px;
+padding:30px;
+transition:.4s;
+box-shadow:0 0 20px rgba(0,217,255,.15);">
+
+<h3>🎬 AI Talking Videos</h3>
+
+<p>Educational and viral AI videos for Instagram, Facebook and YouTube.</p>
+
+</div>
+
+<div style="background:#111827;
+border-radius:20px;
+padding:30px;
+transition:.4s;
+box-shadow:0 0 20px rgba(0,217,255,.15);">
+
+<h3>🚀 Business Automation</h3>
+
+<p>AI workflows that automate customer support and repetitive tasks.</p>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:100px 8%;">
+
+<h2 style="text-align:center;
+font-size:42px;
+color:#00e5ff;
+margin-bottom:50px;">
+Website Packages
+</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;">
+
+<!-- Simple Website -->
+
+<div style="background:#111827;
+padding:35px;
+border-radius:20px;
+border:1px solid rgba(0,217,255,.2);">
+
+<h2 style="color:#00e5ff;">Simple Website</h2>
+
+<h3 style="margin-top:20px;">Best For</h3>
+<p>Individuals, Freelancers & Small Businesses</p>
+
+<h3 style="margin-top:20px;">Features</h3>
+
+<ul style="padding-left:20px;line-height:2;">
+<li>1–3 Responsive Pages</li>
+<li>Modern Professional Design</li>
+<li>Mobile Friendly</li>
+<li>Contact Form</li>
+<li>Basic SEO Setup</li>
+<li>Fast Loading</li>
+</ul>
+
+<h3 style="margin-top:25px;color:#00e5ff;">
+Starting From
+</h3>
+
+<h1>₹8,000 – ₹15,000</h1>
+
+</div>
+
+<!-- Fancy Website -->
+
+<div style="background:linear-gradient(135deg,#00d9ff,#7b2cff);
+padding:35px;
+border-radius:20px;
+color:white;
+transform:scale(1.04);">
+
+<h2>Fancy Website</h2>
+
+<h3 style="margin-top:20px;">Best For</h3>
+<p>Startups, Creators & Local Brands</p>
+
+<h3 style="margin-top:20px;">Features</h3>
+
+<ul style="padding-left:20px;line-height:2;">
+<li>4–8 Responsive Pages</li>
+<li>Premium UI/UX Design</li>
+<li>Smooth Animations</li>
+<li>Image Gallery</li>
+<li>Blog Section</li>
+<li>Advanced Forms</li>
+<li>Basic Speed Optimization</li>
+</ul>
+
+<h3 style="margin-top:25px;">
+Starting From
+</h3>
+
+<h1>₹20,000 – ₹40,000</h1>
+
+</div>
+
+<!-- Professional Website -->
+
+<div style="background:#111827;
+padding:35px;
+border-radius:20px;
+border:1px solid rgba(0,217,255,.2);">
+
+<h2 style="color:#00e5ff;">Professional Website</h2>
+
+<h3 style="margin-top:20px;">Best For</h3>
+<p>Companies, Agencies & Premium Brands</p>
+
+<h3 style="margin-top:20px;">Features</h3>
+
+<ul style="padding-left:20px;line-height:2;">
+<li>Custom Premium Design</li>
+<li>8–15+ Pages</li>
+<li>Advanced Animations</li>
+<li>CMS Integration</li>
+<li>SEO Setup</li>
+<li>Performance Optimization</li>
+<li>Security Enhancements</li>
+<li>Analytics Integration</li>
+<li>Priority Support</li>
+</ul>
+
+<h3 style="margin-top:25px;color:#00e5ff;">
+Starting From
+</h3>
+
+<h1>₹50,000+</h1>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:100px 8%;">
+
+<h2 style="text-align:center;
+font-size:42px;
+color:#00e5ff;
+margin-bottom:60px;">
+Why Choose Zainab AI Studio?
+</h2>
+
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;">
+
+<div style="background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:20px;
+text-align:center;
+backdrop-filter:blur(12px);">
+
+<h1 style="font-size:48px;color:#00e5ff;">50+</h1>
+<h3>Projects Delivered</h3>
+<p>Professional AI websites, videos and digital solutions.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:20px;
+text-align:center;">
+
+<h1 style="font-size:48px;color:#00e5ff;">100%</h1>
+<h3>Responsive Design</h3>
+<p>Every website works perfectly on mobile, tablet and desktop.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:20px;
+text-align:center;">
+
+<h1 style="font-size:48px;color:#00e5ff;">24/7</h1>
+<h3>Client Support</h3>
+<p>Quick communication and reliable assistance.</p>
+
+</div>
+
+<div style="background:rgba(255,255,255,.05);
+padding:35px;
+border-radius:20px;
+text-align:center;">
+
+<h1 style="font-size:48px;color:#00e5ff;">AI</h1>
+<h3>Latest Technology</h3>
+<p>Built using modern AI tools and industry best practices.</p>
+
+</div>
+
+</div>
+
+</section>
+<section style="padding:100px 8%;">
+
+<h2 style="text-align:center;
+font-size:42px;
+color:#00e5ff;
+margin-bottom:20px;">
+Let's Build Something Amazing Together
+</h2>
+
+<p style="text-align:center;
+max-width:700px;
+margin:0 auto 50px;
+color:#cfd8e3;">
+Have a project in mind? Whether you need an AI video, a premium website, AI automation, or social media content, I'd love to help bring your ideas to life.
+</p>
+
+<div style="max-width:700px;
+margin:auto;
+background:rgba(255,255,255,.05);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.08);">
+
+<form>
+
+<input
+type="text"
+placeholder="Your Name"
+style="width:100%;
+padding:15px;
+margin-bottom:20px;
+border:none;
+border-radius:10px;
+background:#111827;
+color:white;
+font-size:16px;">
+
+<input
+type="email"
+placeholder="Your Email"
+style="width:100%;
+padding:15px;
+margin-bottom:20px;
+border:none;
+border-radius:10px;
+background:#111827;
+color:white;
+font-size:16px;">
+
+<textarea
+placeholder="Tell me about your project..."
+style="width:100%;
+height:180px;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#111827;
+color:white;
+font-size:16px;
+resize:none;"></textarea>
+
+<button
+type="submit"
+style="width:100%;
+margin-top:20px;
+padding:16px;
+border:none;
+border-radius:50px;
+background:linear-gradient(135deg,#00d9ff,#7b2cff);
+color:white;
+font-size:18px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;">
+Send Message
+</button>
+
+</form>
+
+<div style="margin-top:45px;
+text-align:center;
+line-height:2;">
+
+<h3 style="margin-bottom:20px;color:#00e5ff;">
+Connect With Me
+</h3>
+
+<p>
+📧
+<a href="mailto:zainshk481@gmail.com"
+style="color:#00e5ff;text-decoration:none;">
+zainshk481@gmail.com
+</a>
+</p>
+
+<p>
+📱
+<a href="tel:+918169937312"
+style="color:#00e5ff;text-decoration:none;">
++91 8169937312
+</a>
+</p>
+
+<p>
+📍 Mumbai, Maharashtra, India
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer style="
+padding:50px 20px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.1);
+background:#050816;">
+
+<h2 style="color:#00e5ff;">
+Zainab AI Studio
+</h2>
+
+<p style="
+margin:15px auto;
+max-width:700px;
+color:#cfd8e3;">
+Transforming Ideas into AI-Powered Digital Experiences.
+Helping businesses grow through AI-powered websites,
+automation, branding and creative content.
+</p>
+
+<div style="
+margin:30px 0;
+font-size:28px;">
+
+<a href="mailto:zainshk481@gmail.com"
+style="color:#00e5ff;text-decoration:none;margin:0 12px;">
+📧
+</a>
+
+<a href="tel:+918169937312"
+style="color:#00e5ff;text-decoration:none;margin:0 12px;">
+📞
+</a>
+
+</div>
+
+<p style="color:#888;font-size:15px;">
+© 2026 Zainab AI Studio. All Rights Reserved.
+</p>
+
+</footer>
+<script>
+
+document.querySelector(".btn").addEventListener("mouseenter",()=>{
+
+document.querySelector(".btn").style.transform="scale(1.05)";
+
+});
+
+document.querySelector(".btn").addEventListener("mouseleave",()=>{
+
+document.querySelector(".btn").style.transform="scale(1)";
+
+});
+
+</script>
+
+</body>
+
+</html>
